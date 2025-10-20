@@ -9,6 +9,9 @@
 
 #define CONFIG_SUNXI_USB_PHYS 1
 
+
+#undef CONFIG_CONS_INDEX
+#define CONFIG_CONS_INDEX 2
 /*
  * Include common sunxi configuration where most the settings are
  */
